@@ -532,7 +532,7 @@ if (czy_zagral_ruch!=1){
 
 
 //5 zagraj srodek
-            if (t[1][1]==0 && czy_zagral_ruch!=1){
+            if (t[1][1]==0 && czy_zagral_ruch!=1 && (licznik_ruchow!=1 || t[0][0]==0&&t[2][2]==0&&t[2][0]==0&&t[0][2]==0)){
                     t[1][1]=2;
                 }
 
